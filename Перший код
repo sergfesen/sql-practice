@@ -1,0 +1,3 @@
+Обрати всі дані з таблиці
+SELECT *
+FROM `sql-practice-8555.sqlpractice.salaries`;
