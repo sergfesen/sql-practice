@@ -1,3 +1,9 @@
+# запит без форматування
+
+select * from salaries;
+
+# запит з форматуванням та основними блоками
+
 SELECT 
 work_year AS year 
 , experience_level AS level
