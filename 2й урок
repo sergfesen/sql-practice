@@ -1,0 +1,10 @@
+SELECT 
+work_year AS year 
+, experience_level AS level
+, employment_type AS type
+FROM `sql-practice-8555.sqlpractice.salaries`
+WHERE 
+work_year != 2022
+AND experience_level = 'SE'
+ORDER BY year ASC
+LIMIT 20;
